@@ -1,0 +1,49 @@
+Project 2 Submission
+
+Group Name:   Team 13
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+For the Checkpoint, Describe a sequence of operations to create a new account and log onto the server:
+
+A functionality checklist will not be provided for the project. Treat this as you would a request from a client and identify what the client requires. 
+
+Member 1: Gustavo Fulton Fernandes
+
+Responsiblity: 
+Set up database
+User management (login, register)
+Load game from server
+Game actions - end turn and undo
+Live refresh every time a user takes a turn
+Landscape mode functionality (bundle saving)
+Invalid move checking
+
+
+Member 2: Tom Currie
+
+Responsiblity:
+Set up Firebase
+Win and surrender functionality
+Restart game functionality
+Bug fixes
+
+
+Member 3: Zhuolun Xia
+
+Responsiblity: 
+Set up initial pages for login and signup
+
+
+Provide instructions on how to reach the first editing activity if the login button is not yet functional.
+
+Once a user logs in, it waits until another user logs in to start a game. Once both are in the same lobby, the game can start. 
+If a user logs in and a past game has not yet finished, it will resume that game instead of starting a new one.
+
+User account the server-side communications is running under: phpMyAdmin - ferna194.hatteruser (used same database as step assignment)
+
+Paths to all server-side scripts: (Such as https://www.cse.msu.edu/~carter/project2/login.php).
+http://webdev.cse.msu.edu/~ferna194/cse476/project2/users.php
+
+Calls in the code to the server (provide a class name and function, or URL used for debugging):
+MainActivity.java

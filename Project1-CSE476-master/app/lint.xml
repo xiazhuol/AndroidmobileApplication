@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/empty_space.png" />
+        <ignore path="src/main/res/drawable/empty_space.png" />
+        <ignore path="src/main/res/drawable/spartan_green.png" />
+        <ignore path="src/main/res/drawable/spartan_white.png" />
+    </issue>
+</lint>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Examxiazhuol</string>
+    <string name="Guess">Guess</string>
+    <string name="Giveup">Give Up</string>
+    <string name="new_game">New Game</string>
+    <string name="todo">TODO</string>
+    <string name="lowshort">You are too low and too short!</string>
+    <string name="lowlong">You are too low and too long!</string>
+    <string name="low">You are too low!</string>
+    <string name="highshort">You are too high and too short!</string>
+    <string name="highlong">You are too high and too long!</string>
+    <string name="high">You are too high!</string>
+</resources>

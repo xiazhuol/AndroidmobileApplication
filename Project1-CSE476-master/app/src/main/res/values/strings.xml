@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Project 1</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="start">Start</string>
+    <string name="welcometext">Welcome to Connect 4!</string>
+    <string name="button" tools:keep="@string/button">Button</string>
+    <string name="missingInput">Input missing. Please try again.</string>
+    <string name="content">
+        Object:
+        To win Connect Four you must be the first player to get four of your colored pieces in a row either horizontally, vertically or diagonally.\n\n
+
+        To play, click and drag and your piece will mover around the board. When you are happy with the row your piece is on, press DONE and the piece will find the
+        nearest open spot below it and the next players turn will begin. Repeat the process until one player has connected four! \n\n
+
+        In this we give you the option to undo your turn as well as surrender.\n\n
+
+        Enjoy!
+
+</string>
+    <string name="youwinthegame" tools:keep="@string/youwinthegame">YOU WIN THE GAME!!</string>
+    <string name="ok">OK</string>
+    <string name="you_win_the_game">WON THE GAME!!!</string>
+    <string name="restartBUTTON">RESTART</string>
+    <string name="undobutton">UNDO</string>
+    <string name="surrenderbutton">Surrender</string>
+    <string name="donebutton">Done</string>
+    <string name="instruction">Instructions</string>
+    <string name="password">Password:</string>
+    <string name="user_id">User ID:</string>
+    <string name="log_inbutton">log in</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="new_username">New Username:</string>
+    <string name="new_password">New Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="create">Sign up</string>
+    <string name="remember">Remember</string>
+    <string name="waiting">Waiting</string>
+    <string name="joinwaiting">Waiting for someone to join your lobby</string>
+</resources>

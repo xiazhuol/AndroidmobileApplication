@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132916782668",
+    "firebase_url": "https://project1-cse476-48cd0.firebaseio.com",
+    "project_id": "project1-cse476-48cd0",
+    "storage_bucket": "project1-cse476-48cd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132916782668:android:3b62b0face14ae40",
+        "android_client_info": {
+          "package_name": "edu.msu.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132916782668-5b3tkb2eov1p29uud2bp78b39dj3of4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.msu.project1",
+            "certificate_hash": "6f83fc66704757def857be2cdd2e2187a26eaef7"
+          }
+        },
+        {
+          "client_id": "132916782668-14sdlcbj28affgi9oj3ff3d26hcoibu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXNmnIJutDDBKFwW_RQCWJtdgDHlr3XXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132916782668-14sdlcbj28affgi9oj3ff3d26hcoibu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

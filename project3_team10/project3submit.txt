@@ -1,0 +1,41 @@
+
+Project 3 Submission
+
+Group Name:   Project 3 Team: Team 10
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+Project Name:  Project3
+
+Project Description: the basic idea of the project is that we have four hidden locations and each time, you have one place with hint and you need to go there and press check location button. if you arrive there(the distance between you and the destination is less than 20 meters) you will have a chance to get 25 points and unlock the hint of next location. when you reached 100 points, you complete the mission.
+
+Video Link: https://www.youtube.com/watch?v=tqnWNzOIPK0 
+
+Member 1: Zhuoqun Xia
+
+Responsiblity: Application layouts for the main activity and the ending activity; video recording and making
+
+
+
+Member 2: Hongyu Yan
+
+Responsiblity: Application development including setting up location, saving the location, get the current location using GPS. video recording and making 
+
+
+
+Member 3: Don Task Nakashima
+
+Responsiblity:  create project powerpoint and create the primary activity
+
+
+
+Member 4: //
+
+Responsiblity://
+
+
+
+Member 5: //
+
+Responsiblity://
+

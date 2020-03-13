@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mission Impossible</string>
+    <string name="points">Points:</string>
+    <string name="location">Distances: </string>
+    <string name="currentlocation">Distances</string>
+    <string name="check_location">Check Location</string>
+    <string name="location1">Location1</string>
+    <string name="location2">Location2</string>
+    <string name="location3">Location3</string>
+    <string name="location4">Location4</string>
+    <string name="todo">TODO</string>
+    <string name="longitude">Longitude: </string>
+    <string name="longitude2">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="latitude1">Latitude: </string>
+    <string name="not_in_range">You didn\'t reach the hidden place. Try again.</string>
+    <string name="hidden">Unlock</string>
+    <string name="newbutton">New Game</string>
+</resources>

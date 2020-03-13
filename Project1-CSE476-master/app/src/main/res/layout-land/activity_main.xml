@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/undoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/doneButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="undo"
+        android:text="@string/undobutton" />
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/undoButton"
+        android:layout_alignParentStart="true"
+        android:onClick="changeTurn"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/donebutton" />
+
+    <TextView
+        android:id="@+id/currentPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/doneButton"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignEnd="@+id/surrenderButton"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/surrenderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignTop="@+id/doneButton"
+        android:layout_toEndOf="@+id/doneButton"
+        android:onClick="onSurrender"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/surrenderbutton" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/doneButton"
+        android:layout_alignBottom="@+id/surrenderButton"
+        android:layout_toEndOf="@+id/surrenderButton"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <view
+            android:id="@+id/gridView"
+            class="edu.msu.project1.MainView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="50dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

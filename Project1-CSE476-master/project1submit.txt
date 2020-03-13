@@ -1,0 +1,21 @@
+
+Project 1 Submission
+
+Group Name:   Team 13
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+
+Member 1: Tom Currie
+
+Responsiblity: Created algorithm to detect victory condition, fixed all Lint warnings and worked on saving game state for transitioning from portrait/landscape. 
+
+
+Member 2: Gustavo Fulton Fernandes
+
+Responsiblity: Developed the main algorithm for moving, drawing and snapping the discs to the right positions. Implemented main functionalities such as "Done" and "Undo". Implemented main game matrix with correct values of player discs.
+
+
+Member 3: Zhuolun Xia
+
+Responsiblity: Created different gameplay screens (Initial, Main and Win), worked on zooming functionality and created . 
